@@ -1,0 +1,16 @@
+.grid {
+    display: flex;
+    
+}
+
+.column {
+flex: 1;
+margin: 0;
+}
+
+.cell {
+    border-style: solid;
+    border-color: black;
+    margin: 0;
+    aspect-ratio: 1;
+}
