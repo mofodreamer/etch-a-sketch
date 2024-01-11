@@ -1,16 +1,26 @@
-.grid {
+body {
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+  }
+
+  .grid {
     display: flex;
-    
-}
+    flex-wrap: wrap;
+    gap: 0; /* Set the gap between columns to zero */
+    max-width: 950px;
+  }
 
-.column {
-flex: 1;
-margin: 0;
-}
+  .column {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid black;
+  }
 
-.cell {
-    border-style: solid;
-    border-color: black;
+  .cell {
+    border: 1px solid black;
     margin: 0;
     aspect-ratio: 1;
-}
+    box-sizing: border-box;
+    cursor: pointer; 
+  }
