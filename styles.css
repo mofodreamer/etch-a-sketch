@@ -92,5 +92,6 @@ body {
 
 #grid-container {
   border: 1px solid #ccc;
-  width: 80%;
+  width: 90vh;
+  height: 90vh;
 }
